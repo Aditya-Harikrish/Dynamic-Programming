@@ -1,3 +1,10 @@
+ideas.md
+temp*
+*.exe
+*.out
+*.xlsx
+GraphPlotter.py
+.vscode
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

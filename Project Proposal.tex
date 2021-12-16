@@ -1,0 +1,97 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[UKenglish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools} % an extension of amsmath
+\usepackage{amsthm, amssymb, amsfonts, amstext}
+\usepackage{longtable}
+\usepackage{tocloft}
+\usepackage{geometry}
+\usepackage{algpseudocode}
+\usepackage{multicol}
+\geometry{margin=27mm}
+\usepackage{listings}
+\usepackage{xcolor,colortbl}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\renewcommand\theadalign{bc} % to leave lines inside a table
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0,0,0}
+\definecolor{pageBG}{rgb}{0,0,0}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{yellow},
+    keywordstyle=\color{red},
+    numberstyle=\color{red},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize\color{codegreen},
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4
+}
+\lstset{style=mystyle}
+\urlstyle{same}
+
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem*{claim}{Claim}
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+% \numberwithin{equation}{section}
+\newcommand{\textsb}{\textsubscript}
+
+\title{Algorithms Analysis \& Design\\Project Proposal}
+\author{Aditya Harikrish\\2020111009}
+\date{}
+
+\begin{document}
+\maketitle
+% \tableofcontents
+
+\section{Introduction}
+Dynamic programming is a widely used problem-solving tool that often greatly helps in reducing the effort needed to solve computational problems. It can also be unintuitive to beginners.
+
+\section{Proposal}
+I plan on making a beginner's guide to dynamic programming. To build up on the prerequisites, I will introduce time and space complexities, basic examples of dynamic programming where it outperforms some of the competing algorithms, such as the Fibonacci sequence. I will then formally define dynamic programming, explain how a solution could be intuitively and originally thought of and what kinds of problems can be solved using dynamic programming. Some of the problems / algorithms I wish to cover are:
+\begin{enumerate}
+    \item Fibonacci sequence
+    \item Frog Jump
+    \item Longest increasing subsequence
+    \item Longest common subsequence
+    \item Shortest common supersequence
+    \item Minimum coins
+    \item Longest palindromic substring
+    \item Knapsack
+    \item Tower of Hanoi (one of my all-time favourite problems)
+    \item Egg dropping problem
+    \item Bellman Ford Algorithm
+    \item Floyd Warshall Algorithm
+\end{enumerate}
+I shall go through memoisation as well in the process. If possible, I would like to cover Optimal binary search trees.
+
+\section{Timeline}
+The tentative timeline is as follows. I would like to finish most of the theoretical part including the prerequisites, along with 5 or so problems by the first week of November.
+I plan to finish the project by including more problems and if needed, polishing the theoretical parts by the third or fourth week of November.
+
+\end{document}
